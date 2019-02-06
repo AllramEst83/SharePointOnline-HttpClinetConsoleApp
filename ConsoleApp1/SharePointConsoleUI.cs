@@ -16,8 +16,8 @@ namespace ConsoleApp1
             Console.WriteLine("---Welcome to the SharePoint Online HttpClient Console App---");
             Console.WriteLine("Would You like to connect to the currently set default SharePoint site and list or insert a new Url.");
 
-            Console.WriteLine("1. Use default SharePoint site");
-            Console.WriteLine("2. Insert my own Url." + Environment.NewLine);
+            Console.WriteLine("1. Use default SharePoint site <--INSERT YOUR OWN  SP TENANT INFO IN THE CODE--");
+            Console.WriteLine("2. Insert my own Url. <--DOES NOT WORK AT THE MOMENT--" + Environment.NewLine);
             Console.Write("Your choice: ");
             mainChoice = Console.ReadLine();
             Console.Clear();

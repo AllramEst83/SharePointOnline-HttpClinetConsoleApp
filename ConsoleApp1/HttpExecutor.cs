@@ -11,9 +11,9 @@ namespace ConsoleApp1
 {
     public class HttpExecutor
     {
-        public Uri webUri { get; set; } = new Uri("https://codedbykay.sharepoint.com/sites/kaysdevsite");
-        public string userName { get; set; } = "kay@Codedbykay.onmicrosoft.com";
-        public string password { get; set; } = "RebeckaVirgin81";
+        public Uri webUri { get; set; } = new Uri("https://xxxxxx.sharepoint.com/sites/xxxxx");
+        public string userName { get; set; } = "xxxx@xxxx.onmicrosoft.com";
+        public string password { get; set; } = "xxxxxxxxxxxxx";
         //VERBS
         //GetAll
         internal void Get()
